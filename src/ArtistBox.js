@@ -6,7 +6,7 @@ export default class ArtistBox extends Component<Props> {
     render() {
         const { image, name } = this.props.artist;
         return (
-            <View style = { styles.ArtistBox }>
+            <View style = { styles.artistBox }>
                 <Image style = { styles.image } source={{ uri: image }} />
                 <View style={styles.info}>
                     <Text style={styles.name}>{name}</Text>
