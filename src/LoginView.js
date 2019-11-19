@@ -41,6 +41,7 @@ export default class LoginView extends Component {
                     value={this.state.username}
                     placeholder={'Correo electrónico*'}
                     placeholderTextColor={'#000035'}
+                    autoCapitalize = 'none'
                     onSubmitEditing={() => { this.passwordTextInput.focus(); }}
                     returnKeyType={'next'}
                 />
